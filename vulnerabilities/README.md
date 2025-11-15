@@ -12,7 +12,7 @@ For each proof of concept(PoC), I share how to run the script and what to expect
    I ran 'python3 vulnerability2.py' this will print out the authentication code and
    a print statement saying "injected evil website". Now when the user loads the
    website with the same auth code they should see a new bookmark titled 'Health Care'.
-   When the user clicks on Health Care they are redirected to mr.superevilguy.com, which is
+   When the user clicks on Health Care they are redirected to EvilUrl.com, which is
    assumed to be a malicious website. This PoC shows how easy it is for an outsider to inject
    any website they want into a users bcbmc with just the authentication code.
    
