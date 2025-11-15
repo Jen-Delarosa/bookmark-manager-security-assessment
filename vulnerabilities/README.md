@@ -1,11 +1,11 @@
-For each PoC I share how to run it and what to expect when they are ran. All scripts print out the auhtenticaion code, I manually typed in the auth code into the url. For example if the auth code were 123456 I typed into the browser 'http://127.0.0.1:8888/123456/' to see the results of running my scripts. EXCEPT for vulnerability4 you can have bcbmc open in a browser already. 
+For each proof of concept(PoC), I share how to run the script and what to expect when they are ran. All scripts print out the auhtenticaion code, I manually typed in the auth code into the url. For example if the auth code were 123456 I typed into the browser 'http://127.0.0.1:8888/123456/' to see the results of running my scripts. EXCEPT for vulnerability4 you can have bcbmc open in a browser already. 
 
 
 1. To run PoC 1 which is titled Vulnerability1.py:
-  First you need to have a bcbmc account that has atleast one bookamrk valid url saved.
-  Now before the user loads their bookmark manager again into a web browser you need to load bcbmc in a VM temrinal, by just runing bcbmc.
+  First you need to have a bcbmc account that has atleast one valid bookmark url saved.
+  Before the user loads their bookmark manager into a web browser you need to load bcbmc in a VM temrinal.
   Then in a different VM temrinal run the command 'python3 vulnerability1.py' this should print out the authentication code, and
-  a message that says "bookmark deleted" to confirm each possible bookmark has been deleted. Now when the user opens their web browser with the same authentication code all of     their valid bookmarks should be deleted.
+  a message that says "bookmark deleted" to confirm each possible bookmark has been deleted. Now when the user opens their web browser with the same authentication code all of     their valid bookmarks will be deleted.
 
 2. To run PoC 2 which is titled Vulnerability2.py:
    First I ran bcbmc in a VM terminal and then in a different VM terminal
