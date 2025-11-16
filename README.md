@@ -1,4 +1,4 @@
-# bookmark-manager-security-assesment
+# bookmark-manager-security-assessment
 
 ## Project Overview
 
